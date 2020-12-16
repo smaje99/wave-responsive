@@ -30,7 +30,7 @@ body {
 
 header {
     width: 100%;
-    height: 650px;
+    height: 100vh;
     background: 
         linear-gradient(to right,
             hsla(340, 95%, 50%, 0.459),
@@ -85,6 +85,10 @@ header .textos-header {
 }
 
 /* About us */
+
+.sobre-nosotros {
+    height: 100vh;
+}
 
 .contenedor-sobre-nosotros {
     display: flex;
