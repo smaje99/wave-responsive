@@ -83,3 +83,11 @@ header .textos-header {
     bottom: 0;
     width: 100%;
 }
+
+/* About us */
+
+.contenedor-sobre-nosotros {
+    display: flex;
+    justify-content: space-evenly; /* Reparte el espacio equitativamente */
+
+}
