@@ -286,3 +286,76 @@ footer {
     margin: 20px 0 0 0;
     color: #9e9797;
 }
+
+@media screen and (max-width: 900px) {
+    header {
+        background-position: center;
+    }
+
+    .contenedor-sobre-nosotros {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 77vh;
+    }
+
+    .sobre-nosotros .contenido-textos {
+        width: 90%;
+    }
+
+    .imagen-about-us {
+        width: 60%;
+    }
+
+    /* Galeria */
+
+    .portafolio {
+        height: 105vh;
+    }
+
+    .imagen-port {
+        width: 44%;
+        margin-bottom: 15px;
+    }
+
+    /* Clientes */
+
+    .cards {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cards .card {
+        width: 90%;
+    }
+
+    .cards .card:first-child {
+        margin-bottom: 30px;
+    }
+
+    /* Servicios */
+
+    .servicio-cont {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .servicio-ind {
+        width: 80%;
+        text-align: center;
+    }
+
+    .servicio-ind:nth-child(1),
+    .servicio-ind:nth-child(2) {
+        margin-bottom: 60px;
+    }
+
+    .servicio-ind img {
+        width: 65%;
+    }
+
+    .servicio-ind p {
+        text-align: center;
+    }
+}
